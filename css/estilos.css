@@ -1,100 +1,104 @@
-body{
-    font-family: 'Arial', sans-serif;
+body {
+  font-family: "Times New Roman", sans-serif;
 }
 
-.head{
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-}
-.logo{
-    width: 120px;
-}
-h2{
-    font-weight: 400;
-}
-p{
-    font-weight: 300;
+.head {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
 }
 
-.container{
-    margin: 0 auto;
-    width: 90%;
+.logo {
+  width: 120px;
 }
 
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+h2 {
+  font-weight: 400;
 }
 
-.text-center{
-    text-align: center;
+p {
+  font-weight: 300;
 }
 
-.columna{
-    background: rgb(238, 238, 238);
-    color: #333;
-    border: 1px solid #333;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px #888;
-    box-sizing: border-box;
-    margin: 20px 80px;
-    width: auto;
+.imagenes {
+  width: 500px;
+  margin-top: 16px;
 }
 
-
-section{
-    height: 100vh;
+.img-center {
+  text-align: center;
 }
 
-nav{
-    display: flex;
-    justify-content: flex-start;
-    background-color: rgb(250, 163, 1);
-    align-items: center;
-    height: 56px;
-
+.cuerpo {
+  text-align: justify;
+  padding: 16px;
 }
 
-.nav-enlace{
-    display: inline-block;
-    background: rgb(250, 163, 1);
-    color: aliceblue;
-    padding: 10px 30px;
-    text-decoration: none;
-    font-size: 14px;
-    width: 88px;
+.container {
+  margin: 0 auto;
+  width: 90%;
 }
 
-.nav-enlace:hover{
-    /* background: rgb(212, 139, 3); */
-    color: aliceblue;
-    font-size: 16px;
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
-    
+
+.text-center {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(250, 163, 1);
+  align-items: center;
+  height: 56px;
+}
+
+.nav-enlace {
+  display: inline-block;
+  background: rgb(250, 163, 1);
+  color: aliceblue;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  width: 88px;
+}
+
+.nav-enlace:hover {
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  margin: 20px 80px;
+  margin-bottom: 64px;
+  width: auto;
+}
+
+table thead tr th p {
+  margin: 8px;
+}
+
 @media (max-width: 600px) {
-    nav{
-        flex-direction: column;
-    }
-    .nav-enlace{
-        margin: 10px 0;
-        display: block;
-    }
-    
-}
-
-@media (max-width: 1070px){
-    .columna{
-        width: 45%;
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 600px){
-    .columna{
-        width: 100%;
-        margin-bottom: 20px;
-    }
+  nav {
+    flex-direction: column;
+  }
+  .nav-enlace {
+    margin: 10px 0;
+    display: block;
+  }
+  table {
+    margin: 16px 8px;
+    margin-bottom: 40px;
+  }
 }
