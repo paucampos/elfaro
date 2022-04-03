@@ -118,6 +118,9 @@ th {
     margin: 16px 8px;
     margin-bottom: 40px;
   }
+  .imagenes {
+    width: 320px;
+  }
   .nav-boton {
     display: inline-block;
   }
