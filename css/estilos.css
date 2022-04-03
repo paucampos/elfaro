@@ -55,6 +55,16 @@ nav {
   background-color: rgb(250, 163, 1);
   align-items: center;
   height: 56px;
+  
+  
+}
+
+.nav-boton {
+  background: rgb(250, 163, 1);
+  color: aliceblue;
+  padding: 10px 30px;
+  display: none;
+  border: none;
 }
 
 .nav-enlace {
@@ -88,17 +98,30 @@ table {
 table thead tr th p {
   margin: 8px;
 }
+th {
+  padding: 16px;
+}
 
 @media (max-width: 600px) {
   nav {
     flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    height: auto;
   }
   .nav-enlace {
     margin: 10px 0;
     display: block;
+    width: auto;
   }
   table {
     margin: 16px 8px;
     margin-bottom: 40px;
+  }
+  .nav-boton {
+    display: inline-block;
+  }
+  .desaparece {
+    display: none;
   }
 }
