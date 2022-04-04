@@ -13,11 +13,13 @@ body {
 }
 
 h2 {
-  font-weight: 400;
+  font-weight: 600;
+  margin: 0;
 }
 
 p {
   font-weight: 300;
+  margin: 0;
 }
 
 .imagenes {
@@ -33,6 +35,7 @@ p {
 .cuerpo {
   text-align: justify;
   padding: 16px;
+  border-top: 1px solid black;
 }
 
 .container {
@@ -84,23 +87,24 @@ nav {
   font-size: 16px;
 }
 
-table,
-th,
-td {
-  border: 1px solid black;
-}
-
 table {
+  border: 1px solid black;
   margin: 20px 80px;
   margin-bottom: 64px;
   width: auto;
+  background-color: rgb(245, 244, 244);
+}
+
+td {
+  border-top: 1px solid black
 }
 
 table thead tr th p {
   margin: 8px;
 }
-th {
-  padding: 16px;
+
+.title {
+  padding: 16px 16px 0 16px;
 }
 
 @media (max-width: 600px) {
