@@ -1,5 +1,5 @@
 body {
-  font-family: "Times New Roman", sans-serif;
+  font-family: 'Anek Odia', sans-serif;
 }
 
 .head {
@@ -59,8 +59,6 @@ nav {
   background-color: rgb(250, 163, 1);
   align-items: center;
   height: 56px;
-  
-  
 }
 
 .nav-boton {
