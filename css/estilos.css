@@ -1,7 +1,11 @@
 body {
+  /* Se cambia a la fuente enlazada de google */
   font-family: 'Anek Odia', sans-serif;
 }
 
+section {
+  background-color: #f5f5f5;
+}
 .head {
   flex-direction: row;
   display: flex;
@@ -36,6 +40,10 @@ p {
   text-align: justify;
   padding: 16px;
   border-top: 1px solid black;
+}
+
+.cuerpo:hover {
+  border-top: 1px solid white;
 }
 
 .container {
@@ -74,15 +82,16 @@ nav {
   background: rgb(250, 163, 1);
   color: aliceblue;
   padding: 10px 30px;
-  text-decoration: none;
   font-size: 14px;
   width: 88px;
 }
 
 .nav-enlace:hover {
   color: aliceblue;
-  font-weight: bolder;
   font-size: 16px;
+  /* Se le quita el subrayado y se pone en negrita */
+  text-decoration: none; 
+  font-weight: bolder;
 }
 
 table {
@@ -90,11 +99,19 @@ table {
   margin: 20px 80px;
   margin-bottom: 64px;
   width: auto;
-  background-color: rgb(245, 244, 244);
+  background-color: white;
+}
+table:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
 }
 
 td {
-  border-top: 1px solid black
+  border-top: 1px solid black;
+}
+td:hover {
+  border-top: 1px solid white;
 }
 
 table thead tr th p {
@@ -103,6 +120,12 @@ table thead tr th p {
 
 .title {
   padding: 16px 16px 0 16px;
+}
+
+.footer-container {
+  background-color: #c9d2d0;
+  color: #31231e;
+  min-height: 170px;
 }
 
 @media (max-width: 600px) {
