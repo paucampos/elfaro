@@ -26,10 +26,10 @@
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="navbar-main">
             <div class="d-flex justify-content-between align-items-center">
-                <a class="navbar-brand" href="#">
-                  <img src="assets/logo_rsi.png" alt="logo" width="30" height="30" class="d-inline-block align-text-top">
-                  El Faro
-                </a>
+              <a class="navbar-brand" href="#">
+                <img src="assets/logo_rsi.png" alt="logo" width="35" height="35" class="d-inline-block align-text-top" />
+                El Faro
+              </a>
               <div>
                 <button
                   class="navbar-toggler"
@@ -41,21 +41,16 @@
                 >
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div
-                  class="navbar-collapse justify-content-center collapse"
-                  id="navbarSupportedContent"
-                >
-                  <ul
-                    class="navbar-nav d-lg-flex justify-content-between align-items-center"
-                  >
+                <div class="navbar-collapse justify-content-center collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav d-lg-flex justify-content-between align-items-center">
                     <li>
                       <button class="navbar-close">
-                        <!-- <i class="mdi mdi-close"></i> -->
+                        <!-- Poner icono de cierre -->
                         X
                       </button>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" href="index.html">Home</a>
+                      <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="categorias/deporte.html">Deporte</a>
@@ -74,9 +69,22 @@
         </nav>
       </div>
     </header>
+
+    <!-- Reloj -->
+    <div class="watch-banner">
+      <div class="container">
+        <div class="d-flex align-items-end justify-content-end">
+          <div class="d-flex">
+            <span id="fecha" class="mr-3 text-warning"></span>
+          </div>
+          <div class="d-flex">
+            <span id="reloj" class="text-warning"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container-fluid all-page">
-      <div id="fecha" style="font-size: 20px; margin-left: 20px"></div>
-      <div id="reloj" style="font-size: 20px; margin-left: 20px"></div>
       <div class="row">
         <div class="col-md-9 col-sm-12">
           <section id="noticias">
@@ -101,14 +109,13 @@
             <div class="container mb-4">
               <div class="card">
                 <div class="card-header">
-
-                <iframe
-                  class="card-img-top"
-                  src="https://www.youtube.com/embed/4MqYT1D99AQ"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
+                  <iframe
+                    class="card-img-top"
+                    src="https://www.youtube.com/embed/4MqYT1D99AQ"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Ciencia y tecnología</h5>
@@ -128,7 +135,7 @@
             <div class="container mb-4">
               <div class="card">
                 <div class="card-header">
-                <audio class="card-img-top" src="assets/Resumen en video de la guerra Ucrania - Rusia 31 de marzo.mp3" controls></audio>
+                  <audio class="card-img-top" src="assets/Resumen en video de la guerra Ucrania - Rusia 31 de marzo.mp3" controls></audio>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Resumen de la Guerra en Ucrania-Rusia</h5>
@@ -145,7 +152,7 @@
             <div class="container mb-4">
               <div class="card">
                 <div class="card-header">
-                <img class="card-img-top" src="assets/transportistas.png" alt="transportistas" />
+                  <img class="card-img-top" src="assets/transportistas.png" alt="transportistas" />
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Huelga de transportistas</h5>
@@ -170,12 +177,12 @@
             <div class="card">
               <img class="card-img-top" src="./assets/deporte1.jpg" alt="golf" />
               <div class="card-body">
-                <h5 class="card-title">
+                <h5 class="card-title text-wrap2">
                   Guillermo "Mito" Pereira da detalles de su amistad con Niemann y explica cómo un neuropsicólogo lo ayudó a entrar al PGA
                   Tour
                 </h5>
-                <h5 class="card-subtitle mb-2 text-muted">Categoría: Deporte</h5>
-                <p class="card-text">
+                <h5 class="card-subtitle mb-2 text-muted d-none">Categoría: Deporte</h5>
+                <p class="card-text text-wrap2">
                   <strong>Habrán dos chilenos en la elite del golf mundial.</strong>
                   Guillermo Pereira ha tenido una temporada extraordinaria en el Korn Ferry y aseguró su tarjeta para competir en el PGA
                   Tour. Habrán dos chilenos en la élite mundial del golf. "Mito" se encontrará con Joaquín Niemann.

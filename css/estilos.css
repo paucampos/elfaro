@@ -90,7 +90,31 @@ header .navbar-main {
   }
 }
 
+.navbar-light .navbar-nav .nav-link {
+  font-size: large;
+  color: rgba(255,255,255,.70);
+}
+.nav-link:hover, .nav-link:focus {
+  font-weight: bold;
+}
 
+/* Fecha y hora */
+.watch-banner {
+  background: #ffffff;
+  padding: 20px 0px;
+}
+.watch-banner span {
+  padding-right: 24px;
+}
+
+.mini-card {
+  height: 200px;
+}
+.text-wrap2 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
 
 
 
