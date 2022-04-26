@@ -115,8 +115,34 @@ header .navbar-main {
     text-overflow: ellipsis;
     overflow: hidden;
 }
+/* Footer */
+footer {
+  color: #000;
+}
 
+.footer-top {
+  background: #FE9900;
+  padding: 64px 0 24px 0;
+}
 
+.footer-bottom {
+    padding-bottom: 24px;
+    background: #FE9900;
+}
+
+.footer-top .footer-border-bottom {
+  border-bottom: 1px solid rgba(99, 99, 99, 0.2);
+}
+
+.count-category {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background: rgb(231, 231, 231);
+  font-size: 10px;
+  text-align: center;
+  padding-top: 1px;
+}
 
 /* Revisar estilos antiguos */
 .all-page {
